@@ -1,4 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
+import UuidTool from '../views/UuidTool.vue'
 
 const routes = [
   {
@@ -14,6 +15,11 @@ const routes = [
     path: '/json',
     name: 'JsonFormat',
     component: () => import('../views/JsonFormatTool.vue')
+  },
+  {
+    path: '/uuid',
+    name: 'UUID',
+    component: UuidTool
   }
 ]
 
