@@ -18,6 +18,10 @@
           <el-icon><Key /></el-icon>
           <span>UUID生成器</span>
         </el-menu-item>
+        <el-menu-item index="/md5">
+          <el-icon><Lock /></el-icon>
+          <span>MD5加密</span>
+        </el-menu-item>
       </el-menu>
     </el-aside>
     <el-main class="app-main">
@@ -27,7 +31,7 @@
 </template>
 
 <script setup>
-import { Clock, Document, Key } from '@element-plus/icons-vue'
+import { Clock, Document, Key, Lock } from '@element-plus/icons-vue'
 </script>
 
 <style>

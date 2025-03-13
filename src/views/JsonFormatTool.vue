@@ -151,16 +151,18 @@ const clearContent = () => {
 <style scoped>
 .json-format-tool {
   height: 100%;
-  padding: 20px;
+  padding: 0;
   overflow: hidden;
+  display: flex;
 }
 
 .tool-card {
-  height: 100%;
+  flex: 1;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 20px auto;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 
 .card-header {

@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import UuidTool from '../views/UuidTool.vue'
+import Md5Tool from '../views/Md5Tool.vue'
 
 const routes = [
   {
@@ -20,6 +21,11 @@ const routes = [
     path: '/uuid',
     name: 'UUID',
     component: UuidTool
+  },
+  {
+    path: '/md5',
+    name: 'md5',
+    component: Md5Tool
   }
 ]
 
